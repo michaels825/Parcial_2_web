@@ -35,6 +35,7 @@ fs.readFile(__dirname + '/registro.txt', (err, data) => {
 function registrarVisita(url) {
     if (visitas.general.length != 0) {
         let encontrado = false;
+
         visitas.general.forEach((v, index) => {
             if (v.url == url) {
                 v.visitas++;
