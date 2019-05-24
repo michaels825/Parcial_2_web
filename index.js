@@ -69,7 +69,7 @@ app.get('/nosotros', function (request, response) {
 
 app.get('/admin', function (request, response) {
     response.render('admin', { layout: false , visitas:visitas});
-    registrarVisita("admin");
+    //registrarVisita("admin");
 });
 
 app.get('/contacto', function (request, response) {

@@ -112,3 +112,39 @@ body{
     }
 }
 
+.title_list{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: black;
+    width: 700px;
+    margin-bottom: 0;
+    
+    h2{
+        margin-right: 100px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+}
+
+.ul_contador{
+margin: 0;
+}
+
+.items_list{
+    width: 680px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: solid gray 1px;
+    align-items: flex-end;
+
+    div{
+        margin-right: 100px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+}
+

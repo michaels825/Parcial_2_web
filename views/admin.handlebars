@@ -28,12 +28,22 @@
         </div>
     </header>
 
-    <ul>
+
+    <ul class="ul_contador">
+            <li class="title_list">
+                <h2>Página</h2>
+                <h2>Visitas</h2>
+                <h2>Fecha</h2>
+            </li>
+       
+    </ul>
+
+    <ul class="ul_contador">
         {{#each visitas.general}}
-        <li>
-            <div> Nombre : {{url}}</div>
-            <div>Visitas: {{visitas}}</div>
-            <div>Fecha: {{fecha}} </div>
+        <li class="items_list">
+            <div>{{url}}</div>
+            <div>{{visitas}}</div>
+            <div>{{fecha}} </div>
         </li>
         {{/each}}
     </ul>
