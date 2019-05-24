@@ -1,3 +1,7 @@
+
+//PARCIAL 2 WEB
+//MICHAELL ROJAS & JERRY MINOTTA
+
 var express = require('express');
 
 var motorRender = require('express-handlebars');
