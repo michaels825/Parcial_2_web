@@ -103,6 +103,10 @@ body{
         font-size: 20px;
         color: white;
         
+        h1{
+            padding-top: 100px;
+        }
+        
         p{
             margin: 100px;
             padding: 0
@@ -146,5 +150,9 @@ margin: 0;
         margin-bottom: 0;
         padding: 10px;
     }
+}
+
+a:hover{
+border-bottom: solid gray 1px;
 }
 
